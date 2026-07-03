@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "tushare": {
+      "command": "node",
+      "args": ["./mcp/tushare-server.js"],
+      "env": {
+        "TUSHARE_TOKEN": "${TUSHARE_TOKEN}"
+      }
+    }
+  }
+}
